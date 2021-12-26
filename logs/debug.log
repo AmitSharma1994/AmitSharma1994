@@ -1,0 +1,50 @@
+2021-12-26 15:17:26 [main] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Start
+2021-12-26 15:17:27 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Start
+2021-12-26 15:17:30 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Starting RestfullwebserviceApplication using Java 15.0.1 on DESKTOP-DF6OG2H with PID 11956 (D:\SpringProject\restfullwebservice\target\classes started by Amit Sharma in D:\SpringProject\restfullwebservice)
+2021-12-26 15:17:30 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-12-26 15:17:30 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				No active profile set, falling back to default profiles: default
+2021-12-26 15:17:40 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Started RestfullwebserviceApplication in 12.654 seconds (JVM running for 14.709)
+2021-12-26 15:19:31 [http-nio-8080-exec-3] INFO  c.s.t.r.controllers.UserController -
+				Get method
+2021-12-26 15:19:31 [http-nio-8080-exec-3] DEBUG c.s.t.r.doa.UserDaoService -
+				get
+2021-12-26 15:20:01 [http-nio-8080-exec-4] INFO  c.s.t.r.controllers.UserController -
+				Get method by id
+2021-12-26 15:21:41 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Start
+2021-12-26 15:42:55 [main] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Start
+2021-12-26 15:42:55 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Start
+2021-12-26 15:42:56 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Starting RestfullwebserviceApplication using Java 15.0.1 on DESKTOP-DF6OG2H with PID 1828 (D:\SpringProject\restfullwebservice\target\classes started by Amit Sharma in D:\SpringProject\restfullwebservice)
+2021-12-26 15:42:56 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-12-26 15:42:56 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				No active profile set, falling back to default profiles: default
+2021-12-26 15:50:44 [main] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Start
+2021-12-26 15:50:45 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Start
+2021-12-26 15:50:45 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Starting RestfullwebserviceApplication using Java 15.0.1 on DESKTOP-DF6OG2H with PID 9336 (D:\SpringProject\restfullwebservice\target\classes started by Amit Sharma in D:\SpringProject\restfullwebservice)
+2021-12-26 15:50:45 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-12-26 15:50:45 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				No active profile set, falling back to default profiles: default
+2021-12-26 15:55:19 [main] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Start
+2021-12-26 15:55:19 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Start
+2021-12-26 15:55:20 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Starting RestfullwebserviceApplication using Java 15.0.1 on DESKTOP-DF6OG2H with PID 12068 (D:\SpringProject\restfullwebservice\target\classes started by Amit Sharma in D:\SpringProject\restfullwebservice)
+2021-12-26 15:55:20 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-12-26 15:55:20 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				The following profiles are active: @spring.profiles.active@s

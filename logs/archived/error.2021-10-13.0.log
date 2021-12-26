@@ -1,0 +1,255 @@
+2021-10-13 11:00:17 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Starting RestfullwebserviceApplication using Java 15.0.1 on DESKTOP-2C4B46B with PID 4164 (D:\SpringProject\restfullwebservice\target\classes started by Amit Sharma in D:\SpringProject\restfullwebservice)
+2021-10-13 11:00:17 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-13 11:00:17 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				No active profile set, falling back to default profiles: default
+2021-10-13 11:00:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-13 11:00:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+2021-10-13 11:00:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8080 (http)
+2021-10-13 11:00:17 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2021-10-13 11:00:17 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-13 11:00:18 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2021-10-13 11:00:18 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 583 ms
+2021-10-13 11:00:18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-2 - Starting...
+2021-10-13 11:00:18 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-2 - Start completed.
+2021-10-13 11:00:18 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration -
+				H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:0fe8526e-bd4c-4d98-aa15-b570355e3e42'
+2021-10-13 11:00:18 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-13 11:00:18 [restartedMain] INFO  org.hibernate.dialect.Dialect -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-13 11:00:18 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-13 11:00:18 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-13 11:00:18 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-13 11:00:18 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-13 11:00:18 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				9 mappings in 'requestMappingHandlerMapping'
+2021-10-13 11:00:18 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-13 11:00:18 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-13 11:00:18 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-10-13 11:00:18 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-13 11:00:18 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Started RestfullwebserviceApplication in 1.067 seconds (JVM running for 242.205)
+2021-10-13 11:00:18 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2021-10-13 11:01:03 [Thread-7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-13 11:01:03 [Thread-7] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-10-13 11:01:04 [Thread-7] WARN  o.s.b.f.s.DisposableBeanAdapter -
+				Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-10-13 11:01:04 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-2 - Shutdown initiated...
+2021-10-13 11:01:04 [Thread-7] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-2 - Shutdown completed.
+2021-10-13 11:01:04 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Start
+2021-10-13 11:01:04 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Starting RestfullwebserviceApplication using Java 15.0.1 on DESKTOP-2C4B46B with PID 4164 (D:\SpringProject\restfullwebservice\target\classes started by Amit Sharma in D:\SpringProject\restfullwebservice)
+2021-10-13 11:01:04 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-13 11:01:04 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				No active profile set, falling back to default profiles: default
+2021-10-13 11:01:04 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-13 11:01:04 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2021-10-13 11:01:04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8080 (http)
+2021-10-13 11:01:04 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2021-10-13 11:01:04 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-13 11:01:04 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2021-10-13 11:01:04 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 409 ms
+2021-10-13 11:01:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-3 - Starting...
+2021-10-13 11:01:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-3 - Start completed.
+2021-10-13 11:01:04 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration -
+				H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:01a6ccd4-00b2-4547-a838-e14ef413388d'
+2021-10-13 11:01:04 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-13 11:01:04 [restartedMain] INFO  org.hibernate.dialect.Dialect -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-13 11:01:04 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-13 11:01:04 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-13 11:01:04 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-13 11:01:04 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-13 11:01:04 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				9 mappings in 'requestMappingHandlerMapping'
+2021-10-13 11:01:04 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-13 11:01:04 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-13 11:01:04 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-10-13 11:01:04 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-13 11:01:04 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Started RestfullwebserviceApplication in 0.736 seconds (JVM running for 288.742)
+2021-10-13 11:01:04 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2021-10-13 11:01:21 [Thread-14] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-13 11:01:21 [Thread-14] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-10-13 11:01:21 [Thread-14] WARN  o.s.b.f.s.DisposableBeanAdapter -
+				Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-10-13 11:01:21 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-3 - Shutdown initiated...
+2021-10-13 11:01:21 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-3 - Shutdown completed.
+2021-10-13 11:01:22 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Start
+2021-10-13 11:01:22 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Starting RestfullwebserviceApplication using Java 15.0.1 on DESKTOP-2C4B46B with PID 4164 (D:\SpringProject\restfullwebservice\target\classes started by Amit Sharma in D:\SpringProject\restfullwebservice)
+2021-10-13 11:01:22 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-13 11:01:22 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				No active profile set, falling back to default profiles: default
+2021-10-13 11:01:22 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-13 11:01:22 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate -
+				Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2021-10-13 11:01:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat initialized with port(s): 8080 (http)
+2021-10-13 11:01:22 [restartedMain] INFO  o.a.catalina.core.StandardService -
+				Starting service [Tomcat]
+2021-10-13 11:01:22 [restartedMain] INFO  o.a.catalina.core.StandardEngine -
+				Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-13 11:01:22 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -
+				Initializing Spring embedded WebApplicationContext
+2021-10-13 11:01:22 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -
+				Root WebApplicationContext: initialization completed in 381 ms
+2021-10-13 11:01:22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-4 - Starting...
+2021-10-13 11:01:22 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-4 - Start completed.
+2021-10-13 11:01:22 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration -
+				H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:51e56af3-8d20-4400-87e0-9f14e63d85d5'
+2021-10-13 11:01:22 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -
+				HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-13 11:01:22 [restartedMain] INFO  org.hibernate.dialect.Dialect -
+				HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-10-13 11:01:22 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator -
+				HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-13 11:01:22 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-13 11:01:22 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-13 11:01:22 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter -
+				ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-10-13 11:01:22 [restartedMain] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping -
+				9 mappings in 'requestMappingHandlerMapping'
+2021-10-13 11:01:22 [restartedMain] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping -
+				Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-10-13 11:01:22 [restartedMain] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver -
+				ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-10-13 11:01:22 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -
+				LiveReload server is running on port 35729
+2021-10-13 11:01:22 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer -
+				Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-13 11:01:22 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Started RestfullwebserviceApplication in 0.657 seconds (JVM running for 306.571)
+2021-10-13 11:01:22 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener -
+				Condition evaluation unchanged
+2021-10-13 11:02:14 [Thread-18] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -
+				Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-13 11:02:14 [Thread-18] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl -
+				HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-10-13 11:02:14 [Thread-18] WARN  o.s.b.f.s.DisposableBeanAdapter -
+				Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-10-13 11:02:14 [Thread-18] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-4 - Shutdown initiated...
+2021-10-13 11:02:14 [Thread-18] INFO  com.zaxxer.hikari.HikariDataSource -
+				HikariPool-4 - Shutdown completed.
+2021-10-13 11:02:14 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Start
+2021-10-13 11:03:09 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Starting RestfullwebserviceApplication using Java 15.0.1 on DESKTOP-2C4B46B with PID 4164 (D:\SpringProject\restfullwebservice\target\classes started by Amit Sharma in D:\SpringProject\restfullwebservice)
+2021-10-13 11:03:09 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-13 11:03:09 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				No active profile set, falling back to default profiles: default
+2021-10-13 11:03:09 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Started RestfullwebserviceApplication in 0.592 seconds (JVM running for 413.569)
+2021-10-13 11:03:30 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Starting RestfullwebserviceApplication using Java 15.0.1 on DESKTOP-2C4B46B with PID 9932 (D:\SpringProject\restfullwebservice\target\classes started by Amit Sharma in D:\SpringProject\restfullwebservice)
+2021-10-13 11:03:30 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-13 11:03:30 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				No active profile set, falling back to default profiles: default
+2021-10-13 11:03:35 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Started RestfullwebserviceApplication in 5.55 seconds (JVM running for 6.843)
+2021-10-13 11:04:20 [http-nio-8080-exec-1] INFO  c.s.t.r.controllers.UserController -
+				Get method
+2021-10-13 11:04:20 [http-nio-8080-exec-1] DEBUG c.s.t.r.doa.UserDaoService -
+				get
+2021-10-13 11:05:21 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Start
+2021-10-13 11:07:25 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Starting RestfullwebserviceApplication using Java 15.0.1 on DESKTOP-2C4B46B with PID 9932 (D:\SpringProject\restfullwebservice\target\classes started by Amit Sharma in D:\SpringProject\restfullwebservice)
+2021-10-13 11:07:25 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-13 11:07:25 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				No active profile set, falling back to default profiles: default
+2021-10-13 11:07:25 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Started RestfullwebserviceApplication in 0.717 seconds (JVM running for 237.067)
+2021-10-13 11:10:27 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Starting RestfullwebserviceApplication using Java 15.0.1 on DESKTOP-2C4B46B with PID 13308 (D:\SpringProject\restfullwebservice\target\classes started by Amit Sharma in D:\SpringProject\restfullwebservice)
+2021-10-13 11:10:27 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-13 11:10:27 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				No active profile set, falling back to default profiles: default
+2021-10-13 11:10:32 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Started RestfullwebserviceApplication in 5.446 seconds (JVM running for 6.643)
+2021-10-13 13:01:05 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Starting RestfullwebserviceApplication using Java 15.0.1 on DESKTOP-2C4B46B with PID 3908 (D:\SpringProject\restfullwebservice\target\classes started by Amit Sharma in D:\SpringProject\restfullwebservice)
+2021-10-13 13:01:05 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Running with Spring Boot v2.5.5, Spring v5.3.10
+2021-10-13 13:01:05 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				No active profile set, falling back to default profiles: default
+2021-10-13 13:01:09 [restartedMain] INFO  c.s.t.r.RestfullwebserviceApplication -
+				Started RestfullwebserviceApplication in 5.554 seconds (JVM running for 7.403)
+2021-10-13 13:03:31 [restartedMain] DEBUG c.s.t.r.RestfullwebserviceApplication -
+				Start
+2021-10-13 13:05:44 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter -
+				
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
